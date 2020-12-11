@@ -1,0 +1,60 @@
+.body{
+    width: 700;
+    height: 700;
+}
+.Heading{
+
+       
+    color: rgb(63, 30, 210);
+    font-family: cursive;
+    text-align: center;
+}
+#productId {
+
+    width: 200px;
+    
+}
+#quantity {
+    width: 200px  ;
+
+}
+
+#price {
+    width: 200px;
+    
+}
+
+.display_selected_items{
+    background-color: goldenrod;
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+.BA{
+    display: block;
+    float: right;
+    flex-direction: row;
+    padding-right: 650px;
+}.KM{
+   
+}
+
+.form{
+    display: block;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    align-self: center;
+    padding-left: 500px;
+    
+
+}
+
+body{
+    
+    background-color: rgb(27, 143, 75);
+}
+#popup{
+    display: none;
+}

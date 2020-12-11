@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <title>
+         Solution to Griffin Challenge.   
+        </title>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href ="style.css" >
+        <script src="script.js">
+
+        </script>
+
+    </head>
+    <body>
+        <div class ="Heading">
+        <h1 >
+            Solution to Griffin Challenge
+        </h1>
+    </div>
+    <div class ="form">
+      <form >
+         <p>
+             <div class="checks">
+                 <label>Apple</label>
+          <input type="checkbox" value="apple" onchange="retrieveProductValues(event)"></div>
+          <div class="checks">
+            <label>Kiwi</label>
+     <input type="checkbox" value="kiwi" onchange="retrieveProductValues(event)"></div>
+     <div class="checks">
+        <label>Oranges</label>
+ <input type="checkbox" value="oranges" onchange="retrieveProductValues(event)"></div>
+ <div class="checks">
+    <label>Banana</label>
+<input type="checkbox" value="banana" onchange="retrieveProductValues(event)"></div>
+<div class="checks">
+    <label>Grapes</label>
+<input type="checkbox" value="grapesonchange="retrieveProductValues(event)""></div>
+<div class="checks">
+    <label>Strawberries</label>
+<input type="checkbox" value="strawberries"onchange="retrieveProductValues(event)"></div>
+<div class="checks">
+    <label>Peach</label>
+<input type="checkbox" value="peach" onchange="retrieveProductValues(event)"  ></div>
+<div class="checks">
+    <label>Pineapples</label>
+<input type="checkbox" value="pineapple"onchange="retrieveProductValues(event)"></div>
+<div class="checks">
+    <label>Sugarcane</label>
+<input type="checkbox" value="sugarcane"onchange="retrieveProductValues(event)"></div>
+<div class="checks">
+    <label>Watermelon</label>
+<input type="checkbox" value="watermelon"onchange="retrieveProductValues(event)"></div>
+          <!-- <select id="productId">
+              <option value="productId1"> 1 Apples </option>
+              <option value="productId2"> 2  Kiwi</option>
+              <option value="productId3"> 3 Oranges </option>
+              <option value="productId4"> 4  Bananas</option>
+              <option value="productId5"> 5  Grapes</option>
+              <option value="productId6"> 6 Straw Berries </option>
+              <option value="productId7"> 7  peach</option>
+              <option value="productId8"> 8 Pineapples </option>
+              <option value="productId9"> 9 Sugarcane </option>
+              <option value="productId10"> 10 Watermelon </option>
+
+
+          </select > -->
+
+          <!-- <p><label> 
+            Quantity
+          </label><br/>
+          <input type ="text" id = "quantity" placeholder ="Enter the number of items" /> </p>
+         <p> <label> 
+            Price per item 
+          </label><br/>
+          <input type ="text" id = "price_per_item" placeholder ="price per item" /> </p>
+          <input type = "button" id = "add" value ="ADD to cart" /> -->
+
+      </form>
+    </div>
+      <div class = "display_selected_items">
+          
+        
+      </div>
+      <div class = "display_available_items">
+          <div class ="BA"><!--Apples and Bananas-->
+          
+              <image src= "Apple.png" width ="200" height ="200">              
+     
+     
+        <image src= "Bananas.jpg"width ="200" height ="200" >              
+
+</div>
+
+<div class ="KM"><!--Kiwi and mango div-->
+    <image src= "Kiwi.jpg"width ="200" height ="200" >              
+
+    <image src= "Mango.jpg"width ="200" height ="200" > 
+         
+
+</div>
+
+<div class ="mixed fruits">
+    <image src ="watermelon.png" width ="200px" height ="200px"> 
+        <image src ="Strawberries.jpg" width ="200px" height ="200px"></image> 
+</div>
+<image src ="MixedFruits.png" width ="300px" height ="300px"></image>
+
+      </div>
+      <div id = "popup">
+          <div class="popupcontent">
+              <div class="header">
+                  <span id="close">&times;</span>
+                  <h3 id="itemshowselect">Item will here</h3>
+              </div>
+              <div class="popupbody">
+                <p> <label> 
+                    Price per item 
+                  </label><br/>
+                  <input type ="text" id = "price_per_item" placeholder ="price per item" /> </p>
+                  <label> 
+                    Quantity
+                  </label><br/>
+                  <input type ="text" id = "quantity" placeholder ="Enter the number of items" /> </p>
+                  <input type = "button" id = "add" value ="ADD to cart">  
+              </div>
+          </div>
+
+      </div>
+    
+    </body>
+</html>
